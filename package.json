@@ -1,0 +1,21 @@
+{
+  "name": "octane11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^4.0.0",
+    "chai": "^4.3.4",
+    "chalk": "^2.4.2",
+    "https": "^1.0.0",
+    "mocha": "^9.0.1"
+  },
+  "bin": {
+    "exrate": "./bin/index.js"
+  }
+}
